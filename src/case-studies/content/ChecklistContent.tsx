@@ -6,7 +6,7 @@ const imgPicture2 = "https://www.figma.com/api/mcp/asset/7cc92eff-bc89-4588-9bdf
 
 export function ChecklistContent() {
   return (
-    <div className="content-stretch flex flex-col gap-[48px] items-center justify-center pt-[96px] px-[32px] relative shrink-0">
+    <div className="content-stretch flex flex-col gap-6 md:p-[48px] items-center justify-center pt-12 md:pt-[96px] px-4 md:px-[32px] relative shrink-0">
       <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full">
         <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full">
           Case: Checklist for newcomers and startups
@@ -92,12 +92,12 @@ export function ChecklistContent() {
         Understand
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-          <div className="flex-[1_0_0] h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+          <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgPicture} />
           </div>
         </div>
-        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0 text-[16px]">{`In this project we aimed to address the difficulties faced by International House Helsinki's (IHH) key customers. Immigrants, newcomers face a lot of challenges when moving to a new country, least of all overwhelming and fragmented administrative processes. Similarly, for startups, especially those with international founders, we saw the need for specific guidance on legal and business aspects. `}</p>
             <p className="leading-[24px] mb-0 text-[16px]">​</p>
@@ -119,7 +119,7 @@ export function ChecklistContent() {
         Explore
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0">{`We thoroughly explored the specific needs of the target customer groups. For the Newcomer Checklist, this involved researching common questions and procedures related to registration, permits, social security, and integration. We aimed to understand the typical newcomer journey and identify points of difficulty. `}</p>
             <p className="leading-[24px] mb-0">​</p>
@@ -128,8 +128,8 @@ export function ChecklistContent() {
             <p className="leading-[24px]">{`We analyzed existing IHH resources and conducted user research. We also explored best practices for online checklists, considering U I& UX principles and understanding technical constraints for development. We especially wanted to make sure the lists would be mobile-friendly, as most people use city services on their phones.`}</p>
           </div>
         </div>
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
-          <div className="flex-[1_0_0] h-[384px] min-w-px overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
+          <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
             <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[12px]">
               <img alt="" className="absolute h-[148.96%] left-[0.82%] max-w-none top-[-0.33%] w-[225.56%]" src={imgPicture1} />
             </div>
@@ -144,13 +144,13 @@ export function ChecklistContent() {
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
         <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[16px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-          <div className="drop-shadow-[0px_4px_1.5px_rgba(0,0,0,0.1),0px_10px_4px_rgba(0,0,0,0.04)] flex-[1_0_0] h-[384px] min-w-px overflow-clip relative rounded-[12px]">
+          <div className="drop-shadow-[0px_4px_1.5px_rgba(0,0,0,0.1),0px_10px_4px_rgba(0,0,0,0.04)] flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px overflow-clip relative rounded-[12px]">
             <div className="absolute h-[349px] left-0 top-[24px] w-[566px]">
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage11} />
             </div>
           </div>
         </div>
-        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0">{`We created wireframes and mockups to visualize user flow and design, allowing for early feedback, then moved onto fully functional high-fidelity prototypes. Throughout development, we maintained regular communication and feedback loops with IHH staff and user representatives. `}</p>
             <p className="leading-[24px] mb-0">​</p>
@@ -162,7 +162,7 @@ export function ChecklistContent() {
         Impact
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0">{`Our successful concept of the checklists had a positive impact. For international migrants, the Newcomer Checklist provides a clear pathway to understanding their initial steps, reducing anxiety and streamlining service access. For entrepreneurs, the Startup Checklist offers a comprehensive guide to business establishment and growth in Finland. `}</p>
             <p className="leading-[24px] mb-0">​</p>
@@ -173,8 +173,8 @@ export function ChecklistContent() {
             <p className="leading-[24px]">Ultimately, our project contributed to making Helsinki a more welcoming and supportive environment for international talent and entrepreneurship, aligning with IHH's strategy.</p>
           </div>
         </div>
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
-          <div className="flex-[1_0_0] h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
+          <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
             <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[12px] size-full" src={imgPicture2} />
           </div>
         </div>

@@ -42,7 +42,7 @@ function ArrowIcon() {
 }
 
 const cardClassName =
-  'bg-[var(--gray-default)] content-stretch cursor-pointer flex items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit transition-shadow hover:shadow-[0px_8px_6px_0px_rgba(0,0,0,0.08),0px_4px_4px_0px_rgba(0,0,0,0.06)]'
+  'bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit transition-shadow hover:shadow-[0px_8px_6px_0px_rgba(0,0,0,0.08),0px_4px_4px_0px_rgba(0,0,0,0.06)]'
 
 const caseCardClassName =
   'bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit transition-shadow hover:shadow-[0px_8px_6px_0px_rgba(0,0,0,0.08),0px_4px_4px_0px_rgba(0,0,0,0.06)]'
@@ -62,9 +62,9 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
         aria-label={`${project.title} — case study coming soon`}
         onClick={(event) => event.preventDefault()}
       >
-        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch w-full">
           <div className="content-stretch flex gap-[12px] items-center justify-end overflow-clip relative shrink-0 w-full">
-            <p className=" font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--gray-900)] text-ellipsis text-left w-[420px] whitespace-nowrap">
+            <p className=" font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[20px] md:text-[24px] text-[color:var(--gray-900)] text-ellipsis text-left w-full max-w-[420px] whitespace-nowrap">
               {project.title}
             </p>
             <ArrowIcon />
@@ -84,8 +84,8 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
   }
 
   const imageColumn = (
-    <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-      <div className="flex-[1_0_0] h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+    <div className="bg-[var(--gray-50)] border-[var(--gray-100)] lg:border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch w-full">
+      <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)] w-full">
         <img
           alt={project.imageAlt}
           className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full"
@@ -96,7 +96,7 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
   )
 
   const textColumn = (
-    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+    <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch w-full">
       <p className=" font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--gray-900)] text-ellipsis text-left w-full whitespace-nowrap">
         {project.title}
       </p>
@@ -148,9 +148,9 @@ export function WorkSection() {
   return (
     <div
       id="work"
-      className="bg-[var(--gray-default)] content-stretch flex flex-col items-center justify-center px-[72px] py-[96px] relative shrink-0 w-full scroll-mt-24"
+      className="bg-[var(--gray-default)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full scroll-mt-24"
     >
-      <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-[32px] relative shrink-0 w-full">
+      <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-0 md:px-[32px] relative shrink-0 w-full">
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
           <p className="font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full">
             Work

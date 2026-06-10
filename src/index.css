@@ -27,6 +27,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -34,6 +35,16 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --display-size: 28px;
+    --display-line-height: 36px;
+    --headline-size: 24px;
+    --headline-line-height: 32px;
+  }
 }
 
 #root {

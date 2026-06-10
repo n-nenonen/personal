@@ -8,7 +8,7 @@ const imgVector2 = "https://www.figma.com/api/mcp/asset/f31cf555-65b6-4c07-959b-
 
 export function HelsinkiDesignSystemContent() {
   return (
-    <div className="content-stretch flex flex-col gap-[48px] items-center justify-center pt-[96px] px-[32px] relative shrink-0">
+    <div className="content-stretch flex flex-col gap-6 md:p-[48px] items-center justify-center pt-12 md:pt-[96px] px-4 md:px-[32px] relative shrink-0">
       <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full">
         <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full">
           Case: Helsinki Design System tool migration
@@ -94,12 +94,12 @@ export function HelsinkiDesignSystemContent() {
         Understand
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-          <div className="flex-[1_0_0] h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+          <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[12px] size-full" src={imgPicture} />
           </div>
         </div>
-        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0 text-[16px]">{`Helsinki Design System (HDS) needed to change design tools from Sketch/Abstract to Figma. This significant shift involved the complex task of transferring over 40 components along with the entire design library foundation from one platform to another. `}</p>
             <p className="leading-[24px] mb-0 text-[16px]">​</p>
@@ -121,7 +121,7 @@ export function HelsinkiDesignSystemContent() {
         Explore
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0">We began by thoroughly examining the existing HDS in Sketch and Abstract. We analyzed how these components were organized within Abstract for version control and collaboration.</p>
             <p className="leading-[24px] mb-0">​</p>
@@ -131,8 +131,8 @@ export function HelsinkiDesignSystemContent() {
             <p className="leading-[24px]">​</p>
           </div>
         </div>
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
-          <div className="flex-[1_0_0] h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-l border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-br-[12px] rounded-tr-[12px] self-stretch">
+          <div className="flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.1),0px_10px_8px_0px_rgba(0,0,0,0.04)]">
             <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[12px] size-full" src={imgPicture1} />
           </div>
         </div>
@@ -141,8 +141,8 @@ export function HelsinkiDesignSystemContent() {
         Approach and validation
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-          <div className="drop-shadow-[0px_4px_1.5px_rgba(0,0,0,0.1),0px_10px_4px_rgba(0,0,0,0.04)] flex-[1_0_0] h-[384px] min-w-px overflow-clip relative rounded-[12px]">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+          <div className="drop-shadow-[0px_4px_1.5px_rgba(0,0,0,0.1),0px_10px_4px_rgba(0,0,0,0.04)] flex-[1_0_0] h-[240px] sm:h-[320px] md:h-[384px] min-w-px overflow-clip relative rounded-[12px]">
             <div className="absolute h-[273px] left-[-20px] top-[55px] w-[520px]">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <img alt="" className="absolute h-[111.34%] left-[4.03%] max-w-none top-[-0.47%] w-[209.25%]" src={imgImage8} />
@@ -150,7 +150,7 @@ export function HelsinkiDesignSystemContent() {
             </div>
           </div>
         </div>
-        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="leading-[24px] mb-0 text-[16px]">{`In the end, directly importing from Sketch files would have significantly increased our manual workload in fixing and renaming we deemed it was actually faster to build the components from scratch. `}</p>
             <p className="leading-[24px] mb-0 text-[16px]">​</p>
@@ -172,7 +172,7 @@ export function HelsinkiDesignSystemContent() {
         Impact
       </p>
       <div className="bg-[var(--gray-default)] content-stretch flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px]">
-        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="[word-break:break-word] font-normal leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--gray-600)] w-full whitespace-pre-wrap">
             <p className="mb-0 text-[16px]">
               <span className="leading-[24px]">{`We launched `}</span>
@@ -223,7 +223,7 @@ export function HelsinkiDesignSystemContent() {
             </div>
           </div>
         </div>
-        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
+        <div className="bg-[var(--gray-50)] border-[var(--gray-100)] border-r border-solid content-stretch flex flex-[1_0_0] items-center justify-center min-w-px overflow-clip p-6 md:p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="h-[290.926px] relative shrink-0 w-[518px]">
             <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
           </div>

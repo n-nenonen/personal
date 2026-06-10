@@ -16,7 +16,7 @@ export function CaseStudyLayout({ breadcrumbLabel, children }: CaseStudyLayoutPr
       <main className="content-stretch flex flex-col items-center relative shrink-0 w-full max-w-[1440px] mx-auto">
         {children}
       </main>
-      <div className="content-stretch flex flex-col items-start pt-[96px] relative shrink-0 w-full max-w-[1440px] mx-auto">
+      <div className="content-stretch flex flex-col items-start pt-12 md:pt-[96px] relative shrink-0 w-full max-w-[1440px] mx-auto">
         <BackToTopFooter />
       </div>
     </div>
