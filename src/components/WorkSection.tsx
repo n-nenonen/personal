@@ -16,7 +16,7 @@ function Tag({ label, variant }: ProjectTag) {
     <div
       className={`${bg} content-stretch flex items-center justify-center px-[20px] py-[4px] relative rounded-[12px] shrink-0`}
     >
-      <p className="font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] text-left whitespace-nowrap">
+      <p className=" font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] text-left whitespace-nowrap">
         {label}
       </p>
     </div>
@@ -56,7 +56,7 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
       >
         <div className="content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
           <div className="content-stretch flex gap-[12px] items-center justify-end overflow-clip relative shrink-0 w-full">
-            <p className="font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--gray-900)] text-ellipsis text-left w-[420px] whitespace-nowrap">
+            <p className=" font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[24px] text-[color:var(--gray-900)] text-ellipsis text-left w-[420px] whitespace-nowrap">
               {project.title}
             </p>
             <ArrowIcon />
@@ -89,10 +89,10 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
 
   const textColumn = (
     <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] items-center min-w-px overflow-clip p-[48px] relative rounded-bl-[12px] rounded-tl-[12px] self-stretch">
-      <p className="font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--gray-900)] text-ellipsis text-left w-full whitespace-nowrap">
+      <p className=" font-semibold leading-[28px] not-italic overflow-hidden relative shrink-0 text-[20px] text-[color:var(--gray-900)] text-ellipsis text-left w-full whitespace-nowrap">
         {project.title}
       </p>
-      <p className="font-['Inter:Regular'] font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left w-full">
+      <p className=" font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left w-full">
         {project.summary}
       </p>
       {tags.length > 0 && (
@@ -145,18 +145,18 @@ export function WorkSection() {
             Work
           </p>
           <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
-            <p className="font-['Inter:Regular'] font-normal leading-[28px] max-w-[576px] not-italic relative shrink-0 text-[20px] text-[color:var(--gray-600)] text-center w-full">
+            <p className=" font-normal leading-[28px] max-w-[576px] not-italic relative shrink-0 text-[20px] text-[color:var(--gray-600)] text-center w-full">
               Some of the noteworthy projects I have participated in.
             </p>
           </div>
           <div className="content-stretch flex gap-[10px] items-start justify-center relative shrink-0 w-full">
             <div className="bg-[var(--bg-lila)] content-stretch flex items-center justify-center px-[20px] py-[4px] relative rounded-[12px] shrink-0">
-              <p className="font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] whitespace-nowrap">
+              <p className=" font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] whitespace-nowrap">
                 Key skills
               </p>
             </div>
             <div className="bg-[var(--gray-200)] content-stretch flex items-center justify-center px-[20px] py-[4px] relative rounded-[12px] shrink-0">
-              <p className="font-['Inter:Medium'] font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] whitespace-nowrap">
+              <p className=" font-medium leading-[20px] not-italic relative shrink-0 text-[14px] text-[color:var(--gray-600)] whitespace-nowrap">
                 Tools
               </p>
             </div>
