@@ -1,6 +1,4 @@
-# Noora Nenonen — Portfolio
-
-Personal portfolio site built from the [Figma design](https://www.figma.com/design/2Pv2BtX0MMgZxvn0fR3cyO/Portfolio---Noora-Nenonen) with React, Vite, and Tailwind CSS.
+# Noora Nenonen — Personal portfolio site.
 
 **Live site:** https://n-nenonen.github.io/personal/
 
