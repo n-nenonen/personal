@@ -21,7 +21,7 @@ npm run preview
 ## Project structure
 
 - `src/LandingPage.tsx` — main landing page from Figma
-- `src/components/WorkSection.tsx` — project cards (case study pages coming later)
+- `src/components/WorkSection.tsx` — project cards
 - `src/data/portfolio.ts` — editable project and contact data
 
 ## Deployment
