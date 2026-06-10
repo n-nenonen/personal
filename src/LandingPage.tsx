@@ -1,5 +1,5 @@
 import { WorkSection } from './components/WorkSection'
-import { scrollToSection } from './lib/scroll'
+import { scrollToSection, scrollToTop } from './lib/scroll'
 
 const imgVector = "https://www.figma.com/api/mcp/asset/850768f8-efbe-43bd-8d00-db17b148a05f";
 const imgVector1 = "https://www.figma.com/api/mcp/asset/e8f4eb75-d28b-4c59-b280-e78b365c5287";
@@ -848,7 +848,13 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="bg-[var(--gray-50)] content-stretch flex flex-col items-end justify-center px-[80px] py-[24px] relative shrink-0 w-full" data-node-id="1:752" data-name="Footer">
-          <button className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0" data-node-id="10:196" data-name="Link">
+          <button
+            type="button"
+            onClick={scrollToTop}
+            className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0 bg-transparent border-0 p-0"
+            data-node-id="10:196"
+            data-name="Link"
+          >
             <p className="[text-decoration-skip-ink:none] [text-underline-position:from-font] [word-break:break-word] decoration-from-font decoration-solid font-semibold leading-[24px] not-italic relative shrink-0 text-[20px] text-[color:var(--gray-600)] text-left underline whitespace-nowrap" data-node-id="I10:196;1:2580">
               Back to top ↑
             </p>

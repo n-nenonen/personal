@@ -1,9 +1,15 @@
+import { Link } from 'react-router-dom'
 import { imgIcon } from '../assets/images'
 import { projects, type PortfolioProject } from '../data/portfolio'
 
 type ProjectTag = {
   label: string
   variant: 'skill' | 'tool'
+}
+
+function caseStudyPath(project: PortfolioProject) {
+  if (project.layout === 'banner') return null
+  return `/work/${project.slug}`
 }
 
 function Tag({ label, variant }: ProjectTag) {
@@ -40,17 +46,24 @@ function ArrowIcon() {
   )
 }
 
+const cardClassName =
+  'bg-[var(--gray-default)] content-stretch cursor-pointer flex items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit'
+
+const caseCardClassName =
+  'bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit'
+
 function ProjectCard({ project }: { project: PortfolioProject }) {
   const tags: ProjectTag[] = [
     ...project.skillTags.map((label) => ({ label, variant: 'skill' as const })),
     ...project.toolTags.map((label) => ({ label, variant: 'tool' as const })),
   ]
+  const href = caseStudyPath(project)
 
   if (project.layout === 'banner') {
     return (
       <button
         type="button"
-        className="bg-[var(--gray-default)] content-stretch cursor-pointer flex items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left"
+        className={cardClassName}
         aria-label={`${project.title} — case study coming soon`}
         onClick={(event) => event.preventDefault()}
       >
@@ -108,25 +121,31 @@ function ProjectCard({ project }: { project: PortfolioProject }) {
     </div>
   )
 
+  const content =
+    project.layout === 'image-left' ? (
+      <>
+        {imageColumn}
+        {textColumn}
+      </>
+    ) : (
+      <>
+        {textColumn}
+        {imageColumn}
+      </>
+    )
+
+  if (!href) {
+    return (
+      <button type="button" className={caseCardClassName} aria-label={project.title}>
+        {content}
+      </button>
+    )
+  }
+
   return (
-    <button
-      type="button"
-      className="bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left"
-      aria-label={`${project.title} — case study coming soon`}
-      onClick={(event) => event.preventDefault()}
-    >
-      {project.layout === 'image-left' ? (
-        <>
-          {imageColumn}
-          {textColumn}
-        </>
-      ) : (
-        <>
-          {textColumn}
-          {imageColumn}
-        </>
-      )}
-    </button>
+    <Link to={href} className={caseCardClassName} aria-label={`View case study: ${project.title}`}>
+      {content}
+    </Link>
   )
 }
 
@@ -138,10 +157,7 @@ export function WorkSection() {
     >
       <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-[32px] relative shrink-0 w-full">
         <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
-          <p
-            className="font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full"
-            style={{ fontVariationSettings: '"wdth" 100' }}
-          >
+          <p className="font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full">
             Work
           </p>
           <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full">
