@@ -24,3 +24,6 @@ npm run preview
 - `src/components/WorkSection.tsx` — project cards (case study pages coming later)
 - `src/data/portfolio.ts` — editable project and contact data
 
+## Deployment
+
+Pushes to `main` deploy automatically via GitHub Actions. Enable **Settings → Pages → Source: GitHub Actions** if this is the first deploy.
