@@ -106,7 +106,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="bg-[var(--lavender-100)] content-stretch flex items-start justify-center overflow-clip px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full" data-node-id="1:413" data-name="Hero">
+        <div className="bg-[var(--gray-default)] content-stretch flex items-start justify-center overflow-clip px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full" data-node-id="1:413" data-name="Hero">
           <div className="content-start flex flex-[1_0_0] flex-wrap gap-[48px] h-auto items-start min-w-px px-0 md:px-[32px] relative w-full" data-node-id="1:414" data-name="Container">
             <div className="content-stretch flex flex-col gap-[32px] items-start justify-center max-w-[768px] overflow-clip relative shrink-0 w-full" data-node-id="1:415" data-name="Column">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start justify-center not-italic relative shrink-0 w-full" data-node-id="1:416" data-name="Content">
