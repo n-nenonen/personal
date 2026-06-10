@@ -1,15 +1,10 @@
 import { Link } from 'react-router-dom'
 import { imgIcon } from '../assets/images'
-import { projects, type PortfolioProject } from '../data/portfolio'
+import { getCaseStudyPath, projects, type PortfolioProject } from '../data/portfolio'
 
 type ProjectTag = {
   label: string
   variant: 'skill' | 'tool'
-}
-
-function caseStudyPath(project: PortfolioProject) {
-  if (project.layout === 'banner') return null
-  return `/work/${project.slug}`
 }
 
 function Tag({ label, variant }: ProjectTag) {
@@ -47,17 +42,17 @@ function ArrowIcon() {
 }
 
 const cardClassName =
-  'bg-[var(--gray-default)] content-stretch cursor-pointer flex items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit'
+  'bg-[var(--gray-default)] content-stretch cursor-pointer flex items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit transition-shadow hover:shadow-[0px_8px_6px_0px_rgba(0,0,0,0.08),0px_4px_4px_0px_rgba(0,0,0,0.06)]'
 
 const caseCardClassName =
-  'bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit'
+  'bg-[var(--gray-default)] content-stretch cursor-pointer flex flex-col lg:flex-row items-start overflow-clip relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[1152px] text-left no-underline text-inherit transition-shadow hover:shadow-[0px_8px_6px_0px_rgba(0,0,0,0.08),0px_4px_4px_0px_rgba(0,0,0,0.06)]'
 
 function ProjectCard({ project }: { project: PortfolioProject }) {
   const tags: ProjectTag[] = [
     ...project.skillTags.map((label) => ({ label, variant: 'skill' as const })),
     ...project.toolTags.map((label) => ({ label, variant: 'tool' as const })),
   ]
-  const href = caseStudyPath(project)
+  const href = getCaseStudyPath(project)
 
   if (project.layout === 'banner') {
     return (

@@ -14,7 +14,13 @@ export type PortfolioProject = {
   layout: 'image-left' | 'image-right' | 'banner'
   skillTags: string[]
   toolTags: string[]
-  href?: string
+  caseStudyPath?: string
+}
+
+export function getCaseStudyPath(project: PortfolioProject) {
+  if (project.caseStudyPath) return project.caseStudyPath
+  if (project.layout === 'banner') return null
+  return `/work/${project.slug}`
 }
 
 export const contact = {
@@ -40,6 +46,7 @@ export const projects: PortfolioProject[] = [
       'Agile software development',
     ],
     toolTags: ['Figma', 'Sketch', 'Abstract', 'Agile', 'Miro', 'Jira'],
+    caseStudyPath: '/work/helsinki-design-system',
   },
   {
     slug: 'newcomers-checklist',
@@ -60,6 +67,7 @@ export const projects: PortfolioProject[] = [
       'Specification',
     ],
     toolTags: ['Figma', 'Miro'],
+    caseStudyPath: '/work/newcomers-checklist',
   },
   {
     slug: 'suomi-fi-search',
@@ -77,6 +85,7 @@ export const projects: PortfolioProject[] = [
       'Reporting',
     ],
     toolTags: ['PowerPoint', 'Miro'],
+    caseStudyPath: '/work/suomi-fi-search',
   },
   {
     slug: '100-days-of-ui',
