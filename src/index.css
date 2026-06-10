@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
@@ -15,7 +15,7 @@
   --gray-700: #374151;
   --gray-900: #111827;
   --bg-lila: rgba(175, 82, 222, 0.24);
-  --font-display: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
   --display-line-height: 44px;
   --display-size: 36px;
   --display-tracking: 0px;
