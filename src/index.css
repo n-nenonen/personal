@@ -19,6 +19,10 @@
   --display-line-height: 44px;
   --display-size: 36px;
   --display-tracking: 0px;
+  --headline-line-height: 40px;
+  --headline-size: 32px;
+  --labels-secondary: rgba(60, 60, 67, 0.6);
+  --breadcrumb-bg: #f5f5f5;
 }
 
 html {
