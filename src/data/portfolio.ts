@@ -27,7 +27,7 @@ export const contact = {
   email: 'n.nenonen@gmail.com',
   phone: '+358440260496',
   linkedIn: 'https://www.linkedin.com/in/noora-nenonen/',
-  github: 'https://github.com/Nooranen',
+  github: 'https://github.com/n-nenonen',
 }
 
 export const projects: PortfolioProject[] = [
