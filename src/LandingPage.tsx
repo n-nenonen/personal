@@ -768,7 +768,7 @@ export default function LandingPage() {
               <div className="content-stretch flex flex-col sm:flex-row gap-3 sm:gap-[20px] items-center justify-center overflow-clip relative shrink-0 w-full max-w-full" data-node-id="1:740" data-name="Phone">
                 <Icon className="overflow-clip relative shrink-0 size-[32px]" name="icon-phone" size="32" />
                 <p className="[word-break:break-word] font-semibold leading-[32px] md:leading-[40px] not-italic relative shrink-0 text-[20px] md:text-[36px] text-[color:var(--gray-900)] text-center tracking-[-0.72px]" data-node-id="1:742">
-                  +358440260496
+                  +358 440 260496
                 </p>
               </div>
             </div>
