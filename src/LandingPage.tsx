@@ -225,6 +225,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
+        <WorkSection />
         <div className="bg-[var(--gray-default)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[71px] py-12 md:py-[96px] relative shrink-0 w-full" data-node-id="1:462" data-name="Skills">
           <div className="content-stretch flex flex-col gap-[48px] items-start overflow-clip px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:463" data-name="Container">
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1:464" data-name="Row">
@@ -585,112 +586,6 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-        <div className="bg-[var(--gray-50)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full" data-node-id="1:562" data-name="Experience">
-          <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:563" data-name="Container">
-            <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1:564" data-name="Row">
-              <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="6:617">
-                Experience
-              </p>
-              <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full" data-node-id="1:567" data-name="Row">
-                <p className="[word-break:break-word] font-normal leading-[28px] max-w-[576px] not-italic relative shrink-0 text-[20px] text-[color:var(--gray-600)] text-center w-full" data-node-id="1:568">
-                  Here is a quick summary of my most recent experiences:
-                </p>
-              </div>
-            </div>
-            <div className="bg-[var(--gray-default)] content-stretch flex flex-col items-start overflow-clip p-6 md:p-[32px] relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[896px]" data-node-id="1:569" data-name="Row">
-              <div className="content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[48px] items-start overflow-clip relative shrink-0 w-full" data-node-id="1:570" data-name="Row">
-                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="1:571" data-name="Column">
-                  <div className="[word-break:break-word] font-semibold leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="2:3966">
-                    <p className="leading-[28px] mb-0">Gofore Oyj,</p>
-                    <p className="leading-[28px]">{`Tampere `}</p>
-                  </div>
-                </div>
-                <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 w-full lg:w-[384px]" data-node-id="1:582" data-name="Column">
-                  <p className=" font-semibold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--gray-900)] w-full" data-node-id="1:583">
-                    Senior Designer
-                  </p>
-                  <div className="content-stretch flex flex-col font-normal gap-[4px] items-start leading-[0] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="1:584" data-name="Column">
-                    <div className="relative shrink-0 w-full whitespace-pre-wrap" data-node-id="1:585">
-                      <p className="leading-[24px] mb-0">{`At Gofore I’ve had the change to gain extensive experience in 15+ digital service projects working as a consultant in multidisciplinary teams across design and development. `}</p>
-                      <p className="leading-[24px] mb-0">​</p>
-                      <p className="leading-[24px] mb-0">{`Highlights: `}</p>
-                      <p className="leading-[24px]">​</p>
-                    </div>
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:586">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">Applying design thinking methods to collaborate effectively in fast-paced, iterative (mostly) public sector projects.</span>
-                      </li>
-                    </ul>
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:587">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">Building and maintaining scalable design systems and layouts that support consistent user experiences.</span>
-                      </li>
-                    </ul>
-                    <ul className="block list-disc relative shrink-0 w-full" data-node-id="1:588">
-                      <li className="mb-0 ms-[24px]">
-                        <span className="leading-[24px]">Ensuring accessibility standards are met in all digital products and services.</span>
-                      </li>
-                      <li className="ms-[24px]">
-                        <span className="leading-[24px]">Actively contributing and participating in site Communality crew-activities.</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="content-stretch flex items-start relative shrink-0" data-node-id="1:589" data-name="Column">
-                  <p className="[word-break:break-word] font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-700)] whitespace-nowrap" data-node-id="1:590">
-                    Sept 2022 - Present
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="bg-[var(--gray-default)] content-stretch flex flex-col items-start overflow-clip p-6 md:p-[32px] relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)] shrink-0 w-full max-w-[896px]" data-node-id="1:591" data-name="Row">
-              <div className="content-stretch flex flex-col lg:flex-row gap-6 lg:gap-[48px] items-start overflow-clip relative shrink-0 w-full" data-node-id="1:592" data-name="Row">
-                <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="1:593" data-name="Column">
-                  <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="6:366" data-name="Column">
-                    <div className="[word-break:break-word] font-semibold leading-[0] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap" data-node-id="6:367">
-                      <p className="leading-[28px] mb-0">Yleisradio,</p>
-                      <p className="leading-[28px]">Tampere</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 w-full lg:w-[384px]" data-node-id="1:604" data-name="Column">
-                  <p className=" font-semibold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--gray-900)] w-full" data-node-id="1:605">
-                    Media Creative
-                  </p>
-                  <p className=" font-normal leading-[24px] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="33:242">{`Highlights: `}</p>
-                  <div className="content-stretch flex flex-col font-normal gap-[4px] items-start leading-[0] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="1:606" data-name="Column">
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:607">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">{`Visual design for multi-platform content creation, UI/UX development of the Yle Galaxi application `}</span>
-                      </li>
-                    </ul>
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:608">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">Designed and developed user interfaces for Yle Galaxi application with a focus on accessibility and ease of use.</span>
-                      </li>
-                    </ul>
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:609">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">Ran usability tests with primary school children to validate design and implementation</span>
-                      </li>
-                    </ul>
-                    <ul className="block relative shrink-0 w-full" data-node-id="1:610">
-                      <li className="list-disc ms-[24px]">
-                        <span className="leading-[24px]">Ran constant customer research of running programmes and social media</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="content-stretch flex items-start relative shrink-0" data-node-id="1:611" data-name="Column">
-                  <p className="[word-break:break-word] font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-700)] whitespace-nowrap" data-node-id="1:612">
-                    Feb 2020 - Jan 2022
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <WorkSection />
         <div id="testimonials" className="bg-[var(--gray-50)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full scroll-mt-24" data-node-id="1:696" data-name="Testimonials">
           <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:697" data-name="Container">
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="8:172" data-name="Row">
