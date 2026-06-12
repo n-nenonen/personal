@@ -80,76 +80,98 @@ export default function LandingPage() {
         <div className="bg-[var(--gray-default)] border-[rgba(255,255,255,0)] border-b border-solid content-stretch flex items-center justify-center overflow-clip pb-[16px] pt-6 md:pt-[32px] px-4 sm:px-8 md:px-[72px] relative shrink-0 w-full" data-node-id="1:412" data-name="Header">
           <div className="content-stretch flex flex-[1_0_0] flex-col sm:flex-row gap-4 sm:gap-0 items-center sm:items-center justify-between min-w-px px-0 md:px-[32px] relative w-full" data-node-id="I1:412;1:2671" data-name="Container">
             <div className="[word-break:break-word] flex flex-col font-bold justify-center leading-[0] not-italic relative shrink-0 text-[24px] md:text-[30px] text-[color:var(--gray-900)] text-center tracking-[-0.6px]" data-node-id="I1:412;1:2672">
-              <p className="leading-[36px]">NN ⑈︎</p>
+              <p className="leading-[36px]">NN <span className="text-[color:var(--tropical-teal)]">⑈︎</span></p>
             </div>
             <div className="content-stretch flex flex-wrap gap-x-4 gap-y-2 sm:gap-[24px] items-center justify-center sm:justify-end relative shrink-0 w-full sm:w-auto" data-node-id="I1:412;1:2673" data-name="Navigation">
               <button type="button" className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0" data-node-id="I1:412;1:2674" data-name="Link" onClick={() => scrollToSection("about")}>
-                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap" data-node-id="I1:412;1:2674;1:2568">
+                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap hover:text-[color:var(--tropical-teal)] transition-colors" data-node-id="I1:412;1:2674;1:2568">
                   About
                 </p>
               </button>
               <button type="button" className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0" data-node-id="I1:412;1:2675" data-name="Link" onClick={() => scrollToSection("work")}>
-                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap" data-node-id="I1:412;1:2675;1:2568">
+                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap hover:text-[color:var(--tropical-teal)] transition-colors" data-node-id="I1:412;1:2675;1:2568">
                   Work
                 </p>
               </button>
               <button type="button" className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0" data-node-id="I1:412;1:2676" data-name="Link" onClick={() => scrollToSection("testimonials")}>
-                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap" data-node-id="I1:412;1:2676;1:2568">
+                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap hover:text-[color:var(--tropical-teal)] transition-colors" data-node-id="I1:412;1:2676;1:2568">
                   Testimonials
                 </p>
               </button>
               <button type="button" className="content-stretch cursor-pointer flex items-center justify-center relative shrink-0" data-node-id="I1:412;1:2677" data-name="Link" onClick={() => scrollToSection("contact")}>
-                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap" data-node-id="I1:412;1:2677;1:2568">
+                <p className="[word-break:break-word] font-medium leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-left whitespace-nowrap hover:text-[color:var(--tropical-teal)] transition-colors" data-node-id="I1:412;1:2677;1:2568">
                   Contact
                 </p>
               </button>
             </div>
           </div>
         </div>
-        <div className="bg-[var(--gray-default)] content-stretch flex items-start justify-center overflow-clip px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full" data-node-id="1:413" data-name="Hero">
-          <div className="content-start flex flex-[1_0_0] flex-wrap gap-[48px] h-auto items-start min-w-px px-0 md:px-[32px] relative w-full" data-node-id="1:414" data-name="Container">
-            <div className="content-stretch flex flex-col gap-[32px] items-start justify-center max-w-[768px] overflow-clip relative shrink-0 w-full" data-node-id="1:415" data-name="Column">
-              <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start justify-center not-italic relative shrink-0 w-full" data-node-id="1:416" data-name="Content">
-                <p className=" font-bold leading-[44px] md:leading-[72px] relative shrink-0 text-[36px] md:text-[60px] text-[color:var(--gray-900)] tracking-[-1.2px]" data-node-id="1:417">
-                  Hi, I’m Nova 👋
-                </p>
-                <p className=" font-normal leading-[24px] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full max-w-[768px]" data-node-id="1:418">{`I'm an multi-talented designer with a keen focus on creating exceptional digital experiences. I am a design system enthusiast and a strong advocate for human-centric design thinking as a starting point for all projects across different industries and business landscapes.`}</p>
-              </div>
-              <div className="content-stretch flex flex-wrap gap-4 items-center overflow-clip relative shrink-0 w-full max-w-[588px]" data-node-id="1:428" data-name="Links">
-                <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-[124px]" data-node-id="37:247" data-name="social link">
-                  <div className="overflow-clip relative shrink-0 size-[36px]" data-node-id="37:240" data-name="linkedin-big-logo 1">
-                    <div className="absolute inset-[11.11%_19.42%_25.07%_16.67%]" data-node-id="37:241" data-name="Group">
+        <div className="grid md:grid-cols-[55%_45%] min-h-[calc(100vh-80px)] relative shrink-0 w-full" data-node-id="1:413" data-name="Hero">
+          {/* Left: text content */}
+          <div className="bg-[var(--gray-default)] flex flex-col gap-8 items-start justify-center px-4 sm:px-8 md:px-[72px] lg:px-[96px] py-16 md:py-20">
+            <div className="inline-flex items-center border border-[var(--tropical-teal)] text-[color:var(--tropical-teal)] rounded-full px-4 py-1.5 text-sm font-medium tracking-wide">
+              Creative Designer
+            </div>
+            <div className="flex flex-col gap-4">
+              <h1 className="font-bold text-[48px] md:text-[80px] leading-[1.1] text-[color:var(--gray-900)] tracking-[-2px]">
+                Hi, I’m Nova 👋
+              </h1>
+              <p className="font-normal leading-relaxed text-[16px] text-[color:var(--gray-600)] max-w-[480px]">{`I’m a multi-talented designer with a keen focus on creating exceptional digital experiences. I am a design system enthusiast and a strong advocate for human-centric design thinking as a starting point for all projects. Especially in the era of AI!`}</p>
+            </div>
+            <div className="flex flex-wrap gap-4 items-center">
+              <button
+                type="button"
+                onClick={() => scrollToSection("work")}
+                className="bg-[var(--tropical-teal)] text-white font-semibold px-7 py-3 rounded-full hover:opacity-90 transition-opacity cursor-pointer"
+              >
+                View my work
+              </button>
+              <div className="flex gap-5 items-center">
+                <div className="flex gap-1.5 items-center">
+                  <div className="overflow-clip relative shrink-0 size-[32px]">
+                    <div className="absolute inset-[11.11%_19.42%_25.07%_16.67%]">
                       <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
                     </div>
                   </div>
-                  <a className="[word-break:break-word] flex flex-col font-medium justify-center leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-[117px]" href="https://www.linkedin.com/in/noora-nenonen/" data-node-id="37:246" target="_blank">
-                    <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">LinkedIn</p>
+                  <a className="font-medium text-[16px] text-[color:var(--gray-600)] underline" href="https://www.linkedin.com/in/noora-nenonen/" target="_blank">
+                    LinkedIn
                   </a>
                 </div>
-                <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-[112px]" data-node-id="37:253" data-name="social link">
-                  <IconButton className="content-stretch flex items-center justify-center p-[6px] relative rounded-[8px] shrink-0" />
-                  <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://github.com/n-nenonen" data-node-id="37:251" target="_blank">
-                    <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">GitHub</p>
+                <div className="flex gap-1.5 items-center">
+                  <IconButton className="flex items-center justify-center p-[6px] rounded-[8px]" />
+                  <a className="font-medium text-[16px] text-[color:var(--gray-600)] underline" href="https://github.com/n-nenonen" target="_blank">
+                    GitHub
                   </a>
-                </div>
-              </div>
-              <div className="content-stretch flex flex-col gap-[8px] items-start justify-center relative shrink-0 w-full" data-node-id="1:419" data-name="Group">
-                <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="1:420" data-name="Location">
-                  <Icon className="overflow-clip relative shrink-0 size-[24px]" name="icon-location" />
-                  <p className="[word-break:break-word] font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] whitespace-nowrap" data-node-id="1:422">
-                    Tampere, Finland
-                  </p>
-                </div>
-                <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="1:423" data-name="Hire">
-                  <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 size-[24px]" data-node-id="1:424" data-name="Icon">
-                    <div className="bg-[#10b981] relative rounded-[20px] shrink-0 size-[8px]" data-node-id="1:425" data-name="icon-dot-emerald-500" />
-                  </div>
-                  <p className="[word-break:break-word] font-normal leading-[24px] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)]" data-node-id="1:426">
-                    Available for new opportunities (hybrid and remote)
-                  </p>
                 </div>
               </div>
             </div>
+            <div className="flex flex-col gap-2">
+              <div className="flex gap-2 items-center">
+                <Icon className="overflow-clip relative shrink-0 size-[24px]" name="icon-location" />
+                <p className="font-normal text-[16px] text-[color:var(--gray-600)] whitespace-nowrap">
+                  Tampere, Finland
+                </p>
+              </div>
+              <div className="flex gap-2 items-center">
+                <div className="flex items-center justify-center size-[24px]">
+                  <div className="bg-[var(--tropical-teal)] rounded-full size-[8px]" />
+                </div>
+                <p className="font-normal text-[16px] text-[color:var(--gray-600)]">
+                  Available for new opportunities (hybrid and remote)
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* Right: visual */}
+          <div className="bg-[var(--tropical-teal)] relative overflow-hidden min-h-[400px] md:min-h-0">
+            <div className="absolute -bottom-[15%] -right-[15%] w-[70%] aspect-square rounded-full bg-[var(--tropical-orange)]" />
+            <div className="absolute top-8 right-8 w-16 h-16 rounded-full bg-[var(--tropical-yellow)]" />
+            <div className="absolute top-[35%] -left-6 w-12 h-12 rounded-full bg-[var(--tropical-pink)]" />
+            <img
+              alt="Noora Nenonen, UX/UI Designer"
+              className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[90%] w-auto object-cover object-top"
+              src={imgPic}
+            />
           </div>
         </div>
         <div id="about" className="bg-[var(--gray-50)] content-stretch flex items-start justify-center overflow-clip px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full scroll-mt-24" data-node-id="1:436" data-name="About">
@@ -157,14 +179,14 @@ export default function LandingPage() {
             <div className="content-stretch flex flex-wrap gap-[48px] h-auto items-start overflow-clip relative shrink-0 w-full" data-node-id="1:441" data-name="Row">
               <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start min-w-0 md:min-w-[444px] overflow-clip relative w-full md:w-auto" data-node-id="1:442" data-name="Column">
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 max-w-full" data-node-id="1:443" data-name="Pic Container">
-                  <div className="bg-[var(--lavender-100)] border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-0 mt-4 md:mt-[40px] relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:444" data-name="Background" />
+                  <div className="bg-[var(--tropical-orange)] border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-0 mt-4 md:mt-[40px] relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:444" data-name="Background" />
                   <div className="border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-4 md:ml-[40px] mt-0 relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:445" data-name="Pic">
                     <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPic} />
                   </div>
                 </div>
               </div>
               <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[24px] h-full items-start min-w-0 md:min-w-[444px] not-italic overflow-clip relative w-full" data-node-id="1:446" data-name="Column">
-                <p className=" font-semibold leading-[36px] relative shrink-0 text-[24px] md:text-[30px] text-[color:var(--gray-900)] tracking-[-0.6px]" data-node-id="1:447">
+                <p className=" font-semibold leading-[36px] relative shrink-0 text-[24px] md:text-[30px] text-[color:var(--tropical-teal)] tracking-[-0.6px]" data-node-id="1:447">
                   About me
                 </p>
                 <div className="content-stretch flex flex-col font-normal gap-[16px] items-start relative shrink-0 text-[color:var(--gray-600)] w-full" data-node-id="1:448" data-name="Content">
@@ -214,7 +236,7 @@ export default function LandingPage() {
           <div className="content-stretch flex flex-col gap-[48px] items-start overflow-clip px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:463" data-name="Container">
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="1:464" data-name="Row">
               <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full" data-node-id="1:465" data-name="Row">
-                <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="6:619">
+                <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--tropical-teal)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="6:619">
                   Competence
                 </p>
               </div>
@@ -228,7 +250,7 @@ export default function LandingPage() {
               <div className="content-stretch flex flex-col md:flex-row gap-[16px] items-start relative shrink-0 w-full" data-node-id="1:3896" data-name="Row">
                 <div className="content-stretch flex flex-[1_0_0] flex-col gap-[30px] items-start min-w-px pr-[8px] relative" data-node-id="1:3887" data-name="Column">
                   <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="28:5096" data-name="Content">
-                    <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="28:5097" data-name="Title">
+                    <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="28:5097" data-name="Title">
                       <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[24px] text-[color:var(--gray-600)]" data-node-id="28:5098">
                         UI Design
                       </p>
@@ -251,7 +273,7 @@ export default function LandingPage() {
                     </ul>
                   </div>
                   <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="28:5100" data-name="Content">
-                    <div className="content-stretch flex items-center justify-center pl-[24px] relative shrink-0 w-full" data-node-id="28:5101" data-name="Title">
+                    <div className="content-stretch flex items-center justify-center pl-[24px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="28:5101" data-name="Title">
                       <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[24px] text-[color:var(--gray-600)]" data-node-id="28:5102">
                         Design systems and systems-thinking
                       </p>
@@ -276,7 +298,7 @@ export default function LandingPage() {
                 </div>
                 <div className="content-stretch flex flex-[1_0_0] flex-col gap-[30px] items-start min-w-px pl-[8px] relative" data-node-id="1:3890" data-name="Column">
                   <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="28:5110" data-name="Content">
-                    <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="28:5111" data-name="Title">
+                    <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="28:5111" data-name="Title">
                       <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[24px] text-[color:var(--gray-600)]" data-node-id="28:5112">
                         UX Design
                       </p>
@@ -299,7 +321,7 @@ export default function LandingPage() {
                     </ul>
                   </div>
                   <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="28:5105" data-name="Content">
-                    <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="28:5106" data-name="Title">
+                    <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="28:5106" data-name="Title">
                       <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[24px] text-[color:var(--gray-600)]" data-node-id="28:5107">
                         DesignOps
                       </p>
@@ -406,7 +428,7 @@ export default function LandingPage() {
                 <div className="flex flex-[1_0_0] flex-row items-center self-stretch">
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] h-full items-start min-w-px pr-[8px] relative" data-node-id="2:3977" data-name="Column">
                     <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="38:255" data-name="Content">
-                      <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="38:256" data-name="Title">
+                      <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="38:256" data-name="Title">
                         <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[20px] text-[color:var(--gray-600)]" data-node-id="38:257">
                           Accessibility
                         </p>
@@ -426,7 +448,7 @@ export default function LandingPage() {
                       </ul>
                     </div>
                     <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="45:300" data-name="Content">
-                      <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="45:301" data-name="Title">
+                      <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="45:301" data-name="Title">
                         <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[20px] text-[color:var(--gray-600)]" data-node-id="45:302">
                           Service Design
                         </p>
@@ -450,7 +472,7 @@ export default function LandingPage() {
                 <div className="flex flex-[1_0_0] flex-row items-center self-stretch">
                   <div className="content-stretch flex flex-[1_0_0] flex-col gap-[24px] h-full items-start min-w-px pl-[8px] relative" data-node-id="2:3980" data-name="Column">
                     <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="45:296" data-name="Content">
-                      <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="45:297" data-name="Title">
+                      <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="45:297" data-name="Title">
                         <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[20px] text-[color:var(--gray-600)]" data-node-id="45:298">{`Data & AI-assisted design work - future proofing`}</p>
                       </div>
                       <ul className="[word-break:break-word] block font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="45:299">
@@ -468,7 +490,7 @@ export default function LandingPage() {
                       </ul>
                     </div>
                     <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="45:305" data-name="Content">
-                      <div className="content-stretch flex items-center justify-center pl-[16px] relative shrink-0 w-full" data-node-id="45:306" data-name="Title">
+                      <div className="content-stretch flex items-center justify-center pl-[16px] border-l-4 border-[var(--tropical-teal)] relative shrink-0 w-full" data-node-id="45:306" data-name="Title">
                         <p className="[word-break:break-word] flex-[1_0_0] font-bold leading-[24px] min-w-px not-italic relative text-[20px] text-[color:var(--gray-600)]" data-node-id="45:307">
                           Front-end technologies
                         </p>
@@ -573,7 +595,7 @@ export default function LandingPage() {
         <div id="testimonials" className="bg-[var(--gray-50)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full scroll-mt-24" data-node-id="1:696" data-name="Testimonials">
           <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:697" data-name="Container">
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="8:172" data-name="Row">
-              <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="8:173">
+              <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--tropical-teal)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="8:173">
                 Testimonials
               </p>
               <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full" data-node-id="8:174" data-name="Row">
@@ -630,7 +652,7 @@ export default function LandingPage() {
         <div id="contact" className="bg-[var(--gray-default)] content-stretch flex flex-col items-center justify-center px-4 sm:px-8 md:px-[72px] py-12 md:py-[96px] relative shrink-0 w-full scroll-mt-24" data-node-id="1:728" data-name="Contact me">
           <div className="content-stretch flex flex-col gap-[48px] items-center justify-center px-0 md:px-[32px] relative shrink-0 w-full" data-node-id="1:729" data-name="Container">
             <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="9:182" data-name="Row">
-              <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--gray-600)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="9:183">
+              <p className="[word-break:break-word] font-[family-name:var(--font-display)] font-normal leading-[var(--display-line-height)] relative shrink-0 text-[color:var(--tropical-teal)] text-[length:var(--display-size)] text-center tracking-[var(--display-tracking)] w-full" data-node-id="9:183">
                 Get in contact
               </p>
               <div className="content-stretch flex flex-col items-center justify-center overflow-clip relative shrink-0 w-full" data-node-id="9:184" data-name="Row">
@@ -640,7 +662,7 @@ export default function LandingPage() {
             <div className="content-stretch flex flex-col gap-[16px] items-center justify-center relative shrink-0" data-node-id="1:735" data-name="Column">
               <div className="content-stretch flex flex-col sm:flex-row gap-3 sm:gap-[20px] items-center justify-center overflow-clip relative shrink-0 w-full max-w-full" data-node-id="1:736" data-name="Email">
                 <Icon className="overflow-clip relative shrink-0 size-[32px]" name="icon-inbox" size="32" />
-                <p className="[word-break:break-word] font-semibold leading-[32px] md:leading-[40px] not-italic relative shrink-0 text-[20px] md:text-[36px] text-[color:var(--gray-900)] text-center tracking-[-0.72px] break-all sm:break-normal" data-node-id="1:738">
+                <p className="[word-break:break-word] font-semibold leading-[32px] md:leading-[40px] not-italic relative shrink-0 text-[20px] md:text-[36px] text-[color:var(--tropical-teal)] text-center tracking-[-0.72px] break-all sm:break-normal" data-node-id="1:738">
                   n.nenonen@gmail.com
                 </p>
               </div>
