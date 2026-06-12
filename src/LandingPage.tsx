@@ -169,27 +169,11 @@ export default function LandingPage() {
                 </p>
                 <div className="content-stretch flex flex-col font-normal gap-[16px] items-start relative shrink-0 text-[color:var(--gray-600)] w-full" data-node-id="1:448" data-name="Content">
                   <div className="leading-[0] min-w-full relative shrink-0 text-[0px] w-[min-content] whitespace-pre-wrap" data-node-id="1:450">
-                    <p className="leading-[24px] mb-0 text-[16px]">{`Ever since I began my journey as a designer, I've continued to grow and evolve as a professional, taking on new challenges and learning the latest technologies and methods along the way. `}</p>
                     <p className="leading-[24px] mb-0 text-[16px]">​</p>
-                    <p className="leading-[24px] mb-0 text-[16px]">{`I am a philomath -- I thrive on variety, love a good problem or a challenge, and pride myself on being a fast learner. I shine in the parts of projects where I get to materialise my ideas, but I do enjoy being involved in the whole life cycle of a digital product, all the way from discovery phase to end delivery, and offering support beyond that. `}</p>
+                    <p className="leading-[24px] mb-0 text-[16px]">{`I am a philomath - I thrive on variety, love a good problem or a challenge, and pride myself on being a fast learner. I shine in the parts of projects where I get to materialise my ideas, but I do enjoy being involved in the whole life cycle of a digital product, all the way from discovery phase to end delivery, and offering support beyond that. `}</p>
                     <p className="leading-[24px] mb-0 text-[16px]">​</p>
-                    <p className="text-[16px]">
-                      <span className="leading-[24px]">{`Highlight of my career was our Helsinki Design System-team winning the Best Design System award in `}</span>
-                      <a className="[text-underline-position:from-font] [word-break:break-word] cursor-pointer decoration-from-font decoration-solid font-normal leading-[24px] not-italic underline" href="https://2023.grandone.fi/kilpailutyot/?palkinto=voittajat" target="_blank">
-                        <span className="[text-underline-position:from-font] decoration-from-font decoration-solid underline">
-                          Grand One 2023
-                        </span>
-                      </a>
-                      <span className="leading-[24px]">{`. Through that inspiring achievement, I found my current niche in `}</span>
-                      <span className="[word-break:break-word] font-bold leading-[24px] not-italic">design systems</span>
-                      <span className="leading-[24px]">{` and `}</span>
-                      <span className="[word-break:break-word] font-bold leading-[24px] not-italic">agile leadership,</span>
-                      <span className="leading-[24px]">{` which combine a lot the things that inspire me e.g. `}</span>
-                      <span className="[word-break:break-word] font-bold leading-[24px] not-italic">{`streamlining processes, systems-thinking `}</span>
-                      <span className="leading-[24px]">and</span>
-                      <span className="[word-break:break-word] font-bold leading-[24px] not-italic">{` strategic design. `}</span>
-                    </p>
                   </div>
+                  <p className="leading-[24px] min-w-full relative shrink-0 text-[16px] w-[min-content]" data-node-id="1:452">{`My roots are in graphic design, but through my work in design systems and agile leadership, I've developed a strong foundation in both creative and strategic thinking.`}</p>
                   <p className="leading-[24px] min-w-full relative shrink-0 text-[16px] w-[min-content]" data-node-id="1:452">{`When I'm not in full-on designer mode, I’m growing my competence in front-end technologies and AI-assistive tools.`}</p>
                   <p className="leading-[24px] relative shrink-0 text-[16px] whitespace-nowrap" data-node-id="1:453">
                     Finally, some quick bits about me.
