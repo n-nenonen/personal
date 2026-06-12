@@ -111,7 +111,7 @@ export default function LandingPage() {
             <div className="content-stretch flex flex-col gap-[32px] items-start justify-center max-w-[768px] overflow-clip relative shrink-0 w-full" data-node-id="1:415" data-name="Column">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start justify-center not-italic relative shrink-0 w-full" data-node-id="1:416" data-name="Content">
                 <p className=" font-bold leading-[44px] md:leading-[72px] relative shrink-0 text-[36px] md:text-[60px] text-[color:var(--gray-900)] tracking-[-1.2px]" data-node-id="1:417">
-                  Hi, I’m Noora 👋
+                  Hi, I’m Nova 👋
                 </p>
                 <p className=" font-normal leading-[24px] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full max-w-[768px]" data-node-id="1:418">{`I'm an multi-talented designer with a keen focus on creating exceptional digital experiences. I am a design system enthusiast and a strong advocate for human-centric design thinking as a starting point for all projects across different industries and business landscapes.`}</p>
               </div>
@@ -128,7 +128,7 @@ export default function LandingPage() {
                 </div>
                 <div className="content-stretch flex gap-[4px] items-center relative shrink-0 w-[112px]" data-node-id="37:253" data-name="social link">
                   <IconButton className="content-stretch flex items-center justify-center p-[6px] relative rounded-[8px] shrink-0" />
-                  <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://github.com/Nooranen" data-node-id="37:251" target="_blank">
+                  <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://github.com/n-nenonen" data-node-id="37:251" target="_blank">
                     <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">GitHub</p>
                   </a>
                 </div>
@@ -157,7 +157,7 @@ export default function LandingPage() {
             <div className="content-stretch flex flex-wrap gap-[48px] h-auto items-start overflow-clip relative shrink-0 w-full" data-node-id="1:441" data-name="Row">
               <div className="content-stretch flex flex-[1_0_0] flex-col h-full items-start min-w-0 md:min-w-[444px] overflow-clip relative w-full md:w-auto" data-node-id="1:442" data-name="Column">
                 <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 max-w-full" data-node-id="1:443" data-name="Pic Container">
-                  <div className="bg-[var(--gray-200)] border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-0 mt-4 md:mt-[40px] relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:444" data-name="Background" />
+                  <div className="bg-[var(--lavender-100)] border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-0 mt-4 md:mt-[40px] relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:444" data-name="Background" />
                   <div className="border-8 border-[var(--gray-50)] border-solid col-1 h-[280px] sm:h-[360px] md:h-[480px] ml-4 md:ml-[40px] mt-0 relative row-1 w-[min(100%,280px)] sm:w-[320px] md:w-[400px]" data-node-id="1:445" data-name="Pic">
                     <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPic} />
                   </div>
@@ -172,9 +172,9 @@ export default function LandingPage() {
                     <p className="leading-[24px] mb-0 text-[16px]">​</p>
                     <p className="leading-[24px] mb-0 text-[16px]">{`I am a philomath - I thrive on variety, love a good problem or a challenge, and pride myself on being a fast learner. I shine in the parts of projects where I get to materialise my ideas, but I do enjoy being involved in the whole life cycle of a digital product, all the way from discovery phase to end delivery, and offering support beyond that. `}</p>
                     <p className="leading-[24px] mb-0 text-[16px]">​</p>
-                  </div>
                   <p className="leading-[24px] min-w-full relative shrink-0 text-[16px] w-[min-content]" data-node-id="1:452">{`My roots are in graphic design, but through my work in design systems and agile leadership, I've developed a strong foundation in both creative and strategic thinking.`}</p>
                   <p className="leading-[24px] min-w-full relative shrink-0 text-[16px] w-[min-content]" data-node-id="1:452">{`When I'm not in full-on designer mode, I’m growing my competence in front-end technologies and AI-assistive tools.`}</p>
+                  </div>
                   <p className="leading-[24px] relative shrink-0 text-[16px] whitespace-nowrap" data-node-id="1:453">
                     Finally, some quick bits about me.
                   </p>
@@ -585,7 +585,7 @@ export default function LandingPage() {
             <div className="[word-break:break-word] content-stretch flex flex-wrap gap-[48px] h-auto items-start not-italic relative rounded-[12px] shrink-0 w-full" data-node-id="1:703" data-name="Row">
               <div className="bg-[var(--gray-default)] content-stretch flex flex-[1_0_0] flex-col gap-[24px] h-auto items-center min-w-[min(100%,300px)] overflow-clip p-6 md:p-[48px] relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)]" data-node-id="1:704" data-name="Column">
                 <div className=" font-normal leading-[0] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="1:708">
-                  <p className="leading-[24px] mb-0">“Noora ottaa todella hienosti koppia tiimissä ja selvittää monimutkaisiakin ongelmia. Hän ottaa omistajuutta ja huolehtii yhteisestä viestistä, tekee erinomaista yhteistyötä. Käydessä esim. käyttöönottoa/handoveria läpi hän osaa aina hienosti täydentää tietoa myös devauspuolen rajoitteista ja tiedoista. Hän pitää huolta, että projektille saadaan yhtenäinen tieto, vaikka mentäisiinkin oman ydintehtävän ulkopuolelle.”</p>
+                  <p className="leading-[24px] mb-0">“Nova ottaa todella hienosti koppia tiimissä ja selvittää monimutkaisiakin ongelmia. Hän ottaa omistajuutta ja huolehtii yhteisestä viestistä, tekee erinomaista yhteistyötä. Käydessä esim. käyttöönottoa/handoveria läpi hän osaa aina hienosti täydentää tietoa myös devauspuolen rajoitteista ja tiedoista. Hän pitää huolta, että projektille saadaan yhtenäinen tieto, vaikka mentäisiinkin oman ydintehtävän ulkopuolelle.”</p>
                   <p className="leading-[24px]">​</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[4px] items-center justify-center relative shrink-0 text-center w-full" data-node-id="1:709" data-name="Customer Details">
@@ -599,7 +599,7 @@ export default function LandingPage() {
               </div>
               <div className="bg-[var(--gray-default)] content-stretch flex flex-[1_0_0] flex-col gap-[24px] h-auto items-center min-w-[min(100%,300px)] overflow-clip p-6 md:p-[48px] relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)]" data-node-id="1:712" data-name="Column">
                 <div className=" font-normal leading-[0] relative shrink-0 text-[16px] text-[color:var(--gray-600)] w-full" data-node-id="1:716">
-                  <p className="leading-[24px] mb-0">“Nooralla on hyvä silmä visuaalisuudelle ja hän on järjestelmällinen palveluiden suunnittelija. Hän on ryhmätilanteissa harkitseva, rauhallinen ja ratkaisukeskeinen, samalla myös huumori pysyy mukana! Hankalassa asemassa eräässä palvelussa hän sai parannettua ja vietyä käyttökokemusta eteenpäin aikataulu- ja budjettipaineista huolimatta.”</p>
+                  <p className="leading-[24px] mb-0">“Novalla on hyvä silmä visuaalisuudelle ja hän on järjestelmällinen palveluiden suunnittelija. Hän on ryhmätilanteissa harkitseva, rauhallinen ja ratkaisukeskeinen, samalla myös huumori pysyy mukana! Hankalassa asemassa eräässä palvelussa hän sai parannettua ja vietyä käyttökokemusta eteenpäin aikataulu- ja budjettipaineista huolimatta.”</p>
                   <p className="leading-[24px]">​</p>
                 </div>
                 <div className="content-stretch flex flex-col gap-[4px] items-center justify-center relative shrink-0 text-center w-full" data-node-id="1:717" data-name="Customer Details">
@@ -613,7 +613,7 @@ export default function LandingPage() {
               </div>
               <div className="bg-[var(--gray-default)] content-stretch flex flex-[1_0_0] flex-col gap-6 md:gap-[170px] h-auto items-center min-w-[min(100%,300px)] overflow-clip p-6 md:p-[48px] relative rounded-[12px] shadow-[0px_4px_3px_0px_rgba(0,0,0,0.07),0px_2px_2px_0px_rgba(0,0,0,0.06)]" data-node-id="1:720" data-name="Column">
                 <p className=" font-normal leading-[24px] overflow-hidden relative shrink-0 text-[16px] text-[color:var(--gray-600)] text-ellipsis w-full" data-node-id="1:724">
-                  “Noora is an a hard-working professional and her ability to adapt to new situations and large scopes is enviably good! I also appreciate her incredible skills in UX work and Figma. I hope to work with her again in the future.”
+                  “Nova is an a hard-working professional and her ability to adapt to new situations and large scopes is enviably good! I also appreciate her incredible skills in UX work and Figma. I hope to work with her again in the future.”
                 </p>
                 <div className="content-stretch flex flex-col gap-[4px] items-center justify-center relative shrink-0 text-center w-full" data-node-id="1:725" data-name="Customer Details">
                   <p className=" font-semibold leading-[28px] relative shrink-0 text-[20px] text-[color:var(--gray-900)] w-full" data-node-id="1:726">
@@ -666,7 +666,7 @@ export default function LandingPage() {
                   </div>
                   <div className="content-stretch flex flex-[1_0_0] gap-[4px] items-center min-w-px relative" data-node-id="40:2638" data-name="social link">
                     <IconButton className="content-stretch flex items-center justify-center p-[6px] relative rounded-[8px] shrink-0" />
-                    <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://github.com/Nooranen" data-node-id="40:2640" target="_blank">
+                    <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://github.com/n-nenonen" data-node-id="40:2640" target="_blank">
                       <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">GitHub</p>
                     </a>
                   </div>
@@ -700,9 +700,6 @@ export default function LandingPage() {
                         </div>
                       </div>
                     </div>
-                    <a className="[word-break:break-word] flex flex-[1_0_0] flex-col font-medium h-[27px] justify-center leading-[0] min-w-px not-italic relative text-[16px] text-[color:var(--gray-600)]" href="https://www.figma.com/@nooranenonen" data-node-id="40:2643" target="_blank">
-                      <p className="[text-underline-position:from-font] cursor-pointer decoration-from-font decoration-solid leading-[normal] underline">Figma community</p>
-                    </a>
                   </div>
                 </div>
               </div>
